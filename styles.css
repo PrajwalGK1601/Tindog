@@ -1,0 +1,152 @@
+#title{
+  background-color: #ff4c68;
+}
+.navbar-brand{
+  padding-left: 1%;
+  font-size: 1.5rem;
+  font-family: fantasy;
+}
+
+.navigation-bar{
+      position: relative;
+      z-index: 1;
+}
+.nav-content{
+  padding-left: 76%;
+}
+
+h1{
+  font-family: "Ubuntu",bold;
+  color: white;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.buttons{
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.iphone-img{
+  position: relative;
+  top: 10%;
+  left: 2 0%;
+  width: 40%;
+  transform: rotate(25deg);
+}
+body{
+  font-family: 'Ubuntu', sans-serif,bold;
+}
+
+.btn:hover{
+  background-color: #ff4c68;
+}
+
+#features{
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.icon{
+  padding-bottom: 2%;
+  color: #ef8172;
+  text-align: center;
+}
+
+.icon:hover{
+  color: green;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials{
+  padding: 3% 7%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.carousel-indicators{
+  position: absolute;
+  bottom: -7%;
+}
+.press-image{
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 15%;
+}
+
+#pricing{
+  padding: 7% 7%;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.apple{
+  margin-right: 1%;
+}
+#cta{
+  background-color:  #ff4c68;
+  text-align: center;
+}
+
+.closing-sentence{
+  color: white;
+  font-family: "Ubuntu",Bold;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.last-block{
+  padding-top: 5%;
+
+}
+
+.buttons-2{
+  padding: 5% ;
+}
+@media (max-width: 1000px){
+  h1{
+    text-align: center;
+  }
+  .buttons{
+    padding: 0 10%;
+  }
+  .iphone-img{
+    transform: rotate(0);
+  }
+}
